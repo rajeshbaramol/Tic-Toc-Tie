@@ -1,0 +1,48 @@
+.main{
+    /* margin-top: 10%;
+    margin-left: 30%; */
+   background-color:rgb(24, 24, 24) ;
+   color:white ;
+   height: 100vh;
+   align-items: center;
+}
+.body{
+    padding-top: 10%;
+    padding-left: 30%;
+   
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    font-size: 25px;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-width: 0px;
+    background-color: transparent;
+    font-size:50px; 
+    color: whitesmoke;
+    align-items: center;
+    
+}
+table,tr,td {
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    display: flex; 
+}
+.box3 ,.box7{
+    border:none;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+
+}
+.box5{
+    border:none;
+    border: 1px solid whitesmoke;
+
+}.box9,.box1{border:none;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+
+}

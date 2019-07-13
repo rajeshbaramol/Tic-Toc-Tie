@@ -1,0 +1,24 @@
+<div class="main">
+  <div class="body">
+    <table>
+      <tr>
+        <td *ngFor="let f of fRow">
+          <button class="box box{{f}}" id="{{f}}" (click)="clickd($event)" [value]="f"></button>
+        </td>
+      </tr>
+      <tr>
+        <td *ngFor="let s of sRow">
+          <button class="box box{{s}}" (click)="clickd($event)" [value]="s"></button>
+        </td>
+      </tr>
+      <tr>
+        <td *ngFor="let t of tRow">
+          <button (click)="clickd($event)" class="box box{{t}}" [value]="t"></button>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    Player Name :<input type="text" [(ngModel)]="username" />
+  </div>
+</div>
